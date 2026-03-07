@@ -45,7 +45,7 @@ const CustomButton: FC<CustomButtonProps> = ({
   );
 };
 
-export default React.memo(CustomButton);
+export default CustomButton;
 
 const styles = StyleSheet.create({
   btn: {
